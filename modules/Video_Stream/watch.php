@@ -211,7 +211,7 @@ include('modules/Video_Stream/commentlayout.php');
 
 echo "<br>\n";
 OpenTable();
-echo "BigBangGamers Video Stream\n";
+echo "Video Stream\n";
 CloseTable();
 // END OF COPYRIGHT
 
