@@ -94,7 +94,7 @@ if((($viewV == 1) && ($looker == "Anonymous")) || ($regcatanon == 1)) {
 	$embedcode = htmlentities($embedcode, ENT_QUOTES);
 	$currenturlVS = $_SERVER['SERVER_NAME'];
 	$checking = substr($currenturlVS, 0, 7); 
-	if ($checking != "http://") { $currenturlVS = "http://".$currenturlVS; }
+	if ($checking != "https://") { $currenturlVS = "https://".$currenturlVS; }
 	$currenturlVS = $currenturlVS.$_SERVER['SCRIPT_NAME']."?".$_SERVER['QUERY_STRING'];
 	
 	echo "    </td>\n";
