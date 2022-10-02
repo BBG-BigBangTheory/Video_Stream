@@ -23,9 +23,9 @@ $url = explode('&', $url[1]);
 $url = $url[0];
 // YouTube Plugin
 $embedcode = "<object width=\"".$row['width']."\" height=\"".$row['height']."\">\n";
-$embedcode .= "<param name=\"movie\" value=\"http://www.youtube.com/v/".$url."\"></param>\n";
+$embedcode .= "<param name=\"movie\" value=\"https://www.youtube.com/v/".$url."\"></param>\n";
 $embedcode .= "<param name=\"wmode\" value=\"transparent\"></param>\n";
-$embedcode .= "<embed src=\"http://www.youtube.com/v/".$url."\" type=\"application/x-shockwave-flash\" wmode=\"transparent\" width=\"".$row['width']."\" height=\"".$row['height']."\"></embed>\n";
+$embedcode .= "<embed src=\"https://www.youtube.com/v/".$url."\" type=\"application/x-shockwave-flash\" wmode=\"transparent\" width=\"".$row['width']."\" height=\"".$row['height']."\"></embed>\n";
 $embedcode .= "</object>\n";
-$url = "http://www.youtube.com/v/".$url;
+$url = "https://www.youtube.com/v/".$url;
 ?>
